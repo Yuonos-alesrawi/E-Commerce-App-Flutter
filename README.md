@@ -1,16 +1,80 @@
-# shop_app_flutter
+# E-Commerce App - Flutter
 
-A new Flutter project.
+A clean and simple E-Commerce application built using **Flutter** and **Dart**. The application provides a seamless shopping experience and uses the `Provider` package for state management.
 
-## Getting Started
+## 📁 Project Structure
 
-This project is a starting point for a Flutter application.
+The main codebase located inside the `lib/` directory consists of the following files:
 
-A few resources to get you started if this is your first Flutter project:
+* **`main.dart`**: The entry point of the application. It handles initial setup, configures the state management `Provider`, and sets up the app theme.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **`cart_provider.dart`**: State management logic for the shopping cart (adding/removing items, calculating totals).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* **`cart_page.dart`**: The cart screen displaying added items with options to edit or remove them.
+
+* **`homepage.dart`**: The main screen that links the product list and cart page using standard navigation/tabs.
+
+* **`product_list.dart`**: A component displaying available products filtered by categories.
+
+* **`product_card.dart`**: A UI widget for rendering individual product cards.
+
+* **`product_page.dart`**: Details page showing product specifications, sizes, and the "Add to Cart" option.
+
+* **`global.dart`**: Contains global variables and mock data (such as default product listings).
+
+## 🚀 Features
+
+1. **Browse Products**: Displays items in organized lists with filtering options based on categories.
+2. **Product Details**: Inspect details, select sizes, and view specific product specifications.
+3. **Cart Management**:
+   * Add items to the shopping cart.
+   * Remove items from the cart.
+   * Notifications on cart updates.
+4. **Responsive UI**: Modern layout tailored for both Android and iOS devices.
+
+## 🛠️ Tech Stack
+
+* **Language**: [Dart](https://dart.dev/)
+* **Framework**: [Flutter](https://flutter.dev/)
+* **State Management**: [Provider](https://pub.dev/packages/provider)
+
+## 💻 Getting Started
+
+### Prerequisites
+
+* Install [Flutter SDK](https://docs.flutter.dev/get-started/install).
+* A code editor such as VS Code or Android Studio.
+
+### Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd your-repository-name
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+
+4. **Run the application:**
+   ```bash
+   flutter run
+   ```
+
+## 📝 Developer Notes
+
+Make sure the `provider` package is listed in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+```
