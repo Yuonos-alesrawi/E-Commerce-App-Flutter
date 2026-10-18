@@ -49,12 +49,12 @@ The main codebase located inside the `lib/` directory consists of the following 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/your-username/E-Commerce-App-Flutter.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd your-repository-name
+   cd E-Commerce-App-Flutter
    ```
 
 3. **Install dependencies:**
