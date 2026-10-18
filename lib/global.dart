@@ -1,0 +1,36 @@
+final products = [
+  {
+    'id': 0,
+    'title': 'Men\'s Nike Shoes',
+    'price': 44.52,
+    'company': 'Nike',
+    'image':'assets/images/IMG-20251116-WA0014.png',
+    'sizes': [9, 10, 11, 12],
+  },
+  {
+    'id': 1,
+    'title': 'Addidas Shoes',
+    'price': 20.12,
+    'company': 'Addidas',
+    'image':'assets/images/IMG-20251116-WA0016.png',
+    'sizes': [9, 10, 12],
+  },
+  {
+    'id': 2,
+    'title': 'Bata Women\'s Shoes',
+    'price': 28.95,
+    'company': 'Bata',
+    'image':'assets/images/IMG-20251116-WA0017.png',
+    'sizes': [8, 9, 10],
+  },
+  {
+    'id': 3,
+    'title': 'Jordan Shoes',
+    'price': 420.69,
+    'company': 'Nike',
+    'image':'assets/images/IMG-20251116-WA0019.png',
+    'sizes': [8, 9, 10],
+  },
+];
+
+
